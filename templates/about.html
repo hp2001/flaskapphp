@@ -1,8 +1,16 @@
+<!-- templates/about.html -->
 {% extends "base.html" %}
 
 {% block title %}About Us - Flask App{% endblock %}
 
 {% block content %}
-    <h2>About Us</h2>
-    <p>Here is some information about our Flask app.</p>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>Here is some information about our Flask app.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="About Image">
+        </div>
+    </div>
 {% endblock %}

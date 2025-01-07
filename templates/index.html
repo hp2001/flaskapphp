@@ -4,6 +4,11 @@
 {% block title %}Home - Flask App{% endblock %}
 
 {% block content %}
-    <h2>Welcome to the Home Page</h2>
-    <p>This is the content of the home page.</p>
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title">Welcome to the Home Page</h2>
+            <p>This is the content of the home page, now styled with Bootstrap.</p>
+            <a href="/about" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
 {% endblock %}
